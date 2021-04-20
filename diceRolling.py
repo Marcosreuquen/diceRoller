@@ -7,7 +7,7 @@ ventana = Tk()
 ventana.geometry('650x650')
 ventana.title('Lanza el dado...')
 ventana.config(bg='white smoke')
-ventana.iconbitmap('C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\more.ico')
+#ventana.iconbitmap('diceroller/more.ico')
 #----------------------------------Variables
 global dado
 dado = 0
@@ -18,19 +18,19 @@ def diceRoller():
     diceNumber = randrange(1,7)
     numDado = diceNumber
     if numDado == 0:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\more.png'
+        Imagen['file'] = 'diceroller/more.png'
     elif numDado == 1:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\diceOne.png'
+        Imagen['file'] = 'diceroller/diceOne.png'
     elif numDado == 2:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\diceTwo.png'
+        Imagen['file'] = 'diceroller/diceTwo.png'
     elif numDado == 3:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\diceThree.png'
+        Imagen['file'] = 'diceroller/diceThree.png'
     elif numDado == 4:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\diceFour.png'
+        Imagen['file'] = 'diceroller/diceFour.png'
     elif numDado == 5:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\diceFive.png'
+        Imagen['file'] = 'diceroller/diceFive.png'
     elif numDado == 6:
-        Imagen['file'] = 'C:\\Users\\Usuario\\Desktop\\Programacion\\python\\projects\\diceroller\\diceSix.png'
+        Imagen['file'] = 'diceroller/diceSix.png'
     dado = numDado
 
 #----------------------------------Etiqueta de Bienvenida
